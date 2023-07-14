@@ -16,7 +16,7 @@ public class AppConfig {
     @Scope("prototype")
     public Cat cat(){
         return new Cat();
-    };
+    }
 
 
 }
